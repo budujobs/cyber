@@ -1,0 +1,121 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+@import "codemirror/lib/codemirror.css";
+@import "codemirror/theme/material.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://cdn.jsdelivr.net/gh/tonsky/FiraCode@4/distr/fira_code.css');
+
+:root {
+    font-size: 12px;
+    line-height: 1.2;
+    overflow: hidden;
+}
+
+#bg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #30224d;
+}
+
+#cover {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url('https://ucarecdn.com/e0ceb100-ca94-4004-a06b-0ed7d525ffe7/-/preview/700x1334/cover.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#game-container {
+    position: absolute;
+    font-family: theme('fontFamily.sans');
+    font-size: theme('fontSize.18');
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    image-rendering: pixelated;
+}
+
+#fulcro-container {
+    @apply absolute z-50;
+}
+
+#fulcro-app {
+    @apply select-none z-10 w-full !important;
+}
+
+button {
+    @apply appearance-none;
+
+    &:focus {
+        @apply outline-yellow;
+    }
+}
+
+.i-dialog-box-outer {
+    background-color: #2b2b45;
+    border: 2px solid #fff;
+}
+
+.i-dialog-box-inner {
+    background-color: #3a3f5e;
+    border: 2px solid #4c6885;
+}
+
+.CodeMirror {
+    height: 600px !important;
+}
+
+.i-x {
+    mask: url('/assets/ui/icons/x.svg');
+    mask-size: cover;
+    display: block;
+    background: theme('colors.black.default');
+
+    width: 16px;
+    height: 16px;
+}
+
+.i-send {
+    mask: url('/assets/ui/icons/send.svg');
+    mask-size: cover;
+    display: block;
+    background: theme('colors.black.default');
+
+    width: 16px;
+    height: 16px;
+}
+
+.outline-yellow {
+    outline: 1px solid theme('colors.yellow.default');
+    outline-offset: 2px;
+}
+
+.outline-cyan {
+    outline: 1px solid theme('colors.cyan.default');
+    outline-offset: 2px;
+}
+
+.outline-turq {
+    outline: 1px solid theme('colors.turq.default');
+    outline-offset: 2px;
+}
+
+.focus\:outline-yellow:focus {
+    @apply outline-yellow;
+}
+
+.text-ellipsis-1 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}

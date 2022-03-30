@@ -1,0 +1,146 @@
+{
+	"textures": [
+		{
+			"image": "sberdroidgreen.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 190,
+				"h": 58
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "idle-down-2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 36,
+						"h": 56
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 36,
+						"h": 56
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 36,
+						"h": 56
+					}
+				},
+				{
+					"filename": "idle-down-3.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 36,
+						"h": 56
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 36,
+						"h": 56
+					},
+					"frame": {
+						"x": 39,
+						"y": 1,
+						"w": 36,
+						"h": 56
+					}
+				},
+				{
+					"filename": "idle-down-1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 36,
+						"h": 56
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 36,
+						"h": 55
+					},
+					"frame": {
+						"x": 77,
+						"y": 1,
+						"w": 36,
+						"h": 55
+					}
+				},
+				{
+					"filename": "idle-down-4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 36,
+						"h": 56
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 36,
+						"h": 55
+					},
+					"frame": {
+						"x": 115,
+						"y": 1,
+						"w": 36,
+						"h": 55
+					}
+				},
+				{
+					"filename": "idle-down-0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 36,
+						"h": 56
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 36,
+						"h": 53
+					},
+					"frame": {
+						"x": 153,
+						"y": 1,
+						"w": 36,
+						"h": 53
+					}
+				},
+				{
+					"filename": "idle-down-5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 36,
+						"h": 56
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 36,
+						"h": 53
+					},
+					"frame": {
+						"x": 153,
+						"y": 1,
+						"w": 36,
+						"h": 53
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:641237450dd234ff96a2a876c3bb527e:fd02a0a64cf5708fec3fec4492a6e4fc:6c5f4d2b364d1199bcf883e1d5fd1633$"
+	}
+}

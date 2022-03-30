@@ -1,0 +1,72 @@
+{"init"                 {:param/kind              :system
+                         :param/avatar-src        "none.svg"
+                         :init                    {:attr :auth/init}
+                         :anon/warning            {:text    "Хочешь пропустить регистрацию?"
+                                                   :actions [{:text "Назад" :next :init}
+                                                             {:text "Да"}]}
+
+                         :sign-in                 {:attr :auth/sign-in}
+                         :sign-in/error           {:text "Что-то пошло не так..." :actions [{:text "Блин" :next :sign-in}]}
+                         :sign-in/invalid-creds   {:text "Неверные почта или пароль." :actions [{:text "Давай еще раз" :next :sign-in}]}
+                         :sign-in/invalid-role    {:text "Чтобы играть, нужно создать профиль." :actions [{:text "Справедливо" :next :sign-up}]}
+                         :sign-in/ok              {:text "Ты в игре!" :actions [{:text "Супер"}]}
+                         :sign-up                 {:attr :auth/sign-up}
+                         :sign-up/duplicate-email {:text "Этот адрес уже кто-то занял." :actions [{:text "Это же мой!" :next :sign-in} {:text "Жаль" :next :sign-up}]}
+                         :sign-up/error           {:text "Что-то пошло не так..." :actions [{:text "Блин" :next :sign-up}]}
+                         :sign-up/ok              {:text "Ты в игре! Сейчас тебе на почту придет письмо от нас.\nСменить скин можно через меню персонажа." :actions [{:text "Супер" :next :teleport}]}
+                         :reset-password          {:attr :auth/reset-password}
+                         :reset-password/ok       {:kind :system
+                                                   :text "Выслали тебе инструкции по восстановлению пароля на почту." :actions [{:text "Супер" :next :sign-in}]}
+                         :reset-password/error    {:kind :system
+                                                   :text "Что-то пошло не так..." :actions [{:text "Блин" :next :reset-password}]}}
+ "react-auth"           {:param/kind              :system
+                         :init                    {:attr :candidate/react-auth-init}
+                         :sign-in                 {:attr :auth/sign-in}
+                         :sign-in/error           {:text "Что-то пошло не так..." :actions [{:text "Блин" :next :sign-in}]}
+                         :sign-in/invalid-creds   {:text "Неверные почта или пароль." :actions [{:text "Давай еще раз" :next :sign-in}]}
+                         :sign-in/invalid-role    {:text "Чтобы играть, нужно создать профиль." :actions [{:text "Справедливо" :next :sign-up}]}
+                         :sign-in/ok              {:text "Ты в игре!" :actions [{:text "Супер"}]}
+                         :sign-up                 {:attr :auth/sign-up}
+                         :sign-up/duplicate-email {:text "Этот адрес уже кто-то занял." :actions [{:text "Это же мой!" :next :sign-in} {:text "Жаль" :next :sign-up}]}
+                         :sign-up/error           {:text "Что-то пошло не так..." :actions [{:text "Блин" :next :sign-up}]}
+                         :sign-up/ok              {:text "Ты в игре! Скоро тебе на почту что-то придет." :actions [{:text "Супер" :next :teleport}]}
+                         :reset-password          {:attr :auth/reset-password}
+                         :reset-password/ok       {:text "Выслали тебе инструкции по восстановлению пароля на почту." :actions [{:text "Супер" :next :sign-in}]}
+                         :reset-password/error    {:text "Что-то пошло не так..." :actions [{:text "Блин" :next :reset-password}]}}
+
+ "global-term"          {:init {:attr :candidate/company
+                                :path []}}
+ "sber-terminal"        {:init {:attr :candidate/company
+                                :path ["Сбер"]}}
+ "kpmg-terminal"        {:init {:attr :candidate/company
+                                :path ["КПМГ"]}}
+ "mvideo-terminal"      {:init {:attr :candidate/company
+                                :path ["М.Видео-Эльдорадо"]}}
+ "kaspersky-terminal"   {:init {:attr :candidate/company
+                                :path ["KasperskyOS"]}}
+ "mckinsey-terminal"    {:init {:attr :candidate/company
+                                :path ["McKinsey & Company"]}}
+ "unicredit-terminal"   {:init {:attr :candidate/company
+                                :path ["Юникредит Банк"]}}
+ "ozon-terminal"        {:init {:attr :candidate/company
+                                :path ["OZON"]}}
+ "raif-terminal"        {:init {:attr :candidate/company
+                                :path ["Райффайзенбанк"]}}
+ "level-terminal"       {:init {:attr :candidate/company
+                                :path ["Level.Travel"]}}
+ "abinbev-terminal"     {:init {:attr :candidate/company
+                                :path ["AB InBev Efes"]}}
+ "perek-terminal"       {:init {:attr :candidate/company
+                                :path ["Перекресток Впрок"]}}
+ "rt-terminal"          {:init {:attr :candidate/company
+                                :path ["Ростелеком"]}}
+ "sibur-terminal"       {:init {:attr :candidate/company
+                                :path ["Сибур Диджитал"]}}
+ "semrush-terminal"     {:init {:attr :candidate/company
+                                :path ["SEMrush"]}}
+ "ey-terminal"          {:init {:attr :candidate/company
+                                :path ["EY"]}}
+ "gazprombank-terminal" {:init {:attr :candidate/company
+                                :path ["Газпромбанк"]}}
+ "kupibilet-terminal"   {:init {:attr :candidate/company
+                                :path ["KUPIBILET.RU"]}}}

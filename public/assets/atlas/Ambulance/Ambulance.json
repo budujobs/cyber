@@ -1,0 +1,62 @@
+{
+	"textures": [
+		{
+			"image": "Ambulance.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 180,
+				"h": 46
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "walk-left-0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 96,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 19,
+						"w": 88,
+						"h": 44
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 88,
+						"h": 44
+					}
+				},
+				{
+					"filename": "walk-right-0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 96,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 19,
+						"w": 88,
+						"h": 44
+					},
+					"frame": {
+						"x": 91,
+						"y": 1,
+						"w": 88,
+						"h": 44
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:0c2cfade04d7645cf19dabd7f6797acb:90584df862ffe4a8925a45b65a9e5fbf:1f80ddf7b65e77066f37b5a1a9d680fb$"
+	}
+}

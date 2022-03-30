@@ -1,0 +1,120 @@
+{
+	"textures": [
+		{
+			"image": "police-dron.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 28,
+				"h": 129
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "walk-down-0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 33,
+						"w": 26,
+						"h": 31
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 26,
+						"h": 31
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.75
+					}
+				},
+				{
+					"filename": "walk-left-0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 33,
+						"w": 26,
+						"h": 30
+					},
+					"frame": {
+						"x": 1,
+						"y": 34,
+						"w": 26,
+						"h": 30
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.75
+					}
+				},
+				{
+					"filename": "walk-right-0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 33,
+						"w": 26,
+						"h": 30
+					},
+					"frame": {
+						"x": 1,
+						"y": 66,
+						"w": 26,
+						"h": 30
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.75
+					}
+				},
+				{
+					"filename": "walk-up-0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 33,
+						"w": 26,
+						"h": 30
+					},
+					"frame": {
+						"x": 1,
+						"y": 98,
+						"w": 26,
+						"h": 30
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.75
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:5c5579f3254548576bc8b4832fbef915:af361a0a39f0372f4deed3e1a67f0dfc:efa62db742ff2a43e73ecb68ec4900ac$"
+	}
+}

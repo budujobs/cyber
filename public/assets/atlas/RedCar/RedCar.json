@@ -1,0 +1,62 @@
+{
+	"textures": [
+		{
+			"image": "RedCar.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 188,
+				"h": 46
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "walk-left-0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 96,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 19,
+						"w": 92,
+						"h": 44
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 92,
+						"h": 44
+					}
+				},
+				{
+					"filename": "walk-right-0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 96,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 19,
+						"w": 92,
+						"h": 44
+					},
+					"frame": {
+						"x": 95,
+						"y": 1,
+						"w": 92,
+						"h": 44
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:0ac54a96bd54d47be99cdeb0dc7c914e:08394c28093c64a118e45438ba388fab:4d6046cbbc258b1d5f4029049b134151$"
+	}
+}

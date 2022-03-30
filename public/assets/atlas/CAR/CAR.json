@@ -1,0 +1,70 @@
+{
+	"textures": [
+		{
+			"image": "CAR.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 180,
+				"h": 46
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "walk-left-0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 96,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 19,
+						"w": 88,
+						"h": 44
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 88,
+						"h": 44
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "walk-right-0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 96,
+						"h": 64
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 19,
+						"w": 88,
+						"h": 44
+					},
+					"frame": {
+						"x": 91,
+						"y": 1,
+						"w": 88,
+						"h": 44
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:bf7726d20702975da069552f5e7dbd39:f9844f6840ad64ebd59d36a27d3f9cf3:19de90d4284f632a0a9294cf4867a790$"
+	}
+}

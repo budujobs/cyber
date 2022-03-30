@@ -1,0 +1,671 @@
+{
+	"textures": [
+		{
+			"image": "balls.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 122,
+				"h": 128
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "boxb-down-0.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 32,
+						"h": 36
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 32,
+						"h": 36
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 32,
+						"h": 36
+					}
+				},
+				{
+					"filename": "bag2-down-0.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 32,
+						"h": 34
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 32,
+						"h": 34
+					},
+					"frame": {
+						"x": 1,
+						"y": 39,
+						"w": 32,
+						"h": 34
+					}
+				},
+				{
+					"filename": "bag1-down-0.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 28,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 28,
+						"h": 32
+					},
+					"frame": {
+						"x": 1,
+						"y": 75,
+						"w": 28,
+						"h": 32
+					}
+				},
+				{
+					"filename": "bubble-down-0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 7,
+						"w": 18,
+						"h": 18
+					},
+					"frame": {
+						"x": 1,
+						"y": 109,
+						"w": 18,
+						"h": 18
+					}
+				},
+				{
+					"filename": "bubble-down-4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 7,
+						"w": 18,
+						"h": 18
+					},
+					"frame": {
+						"x": 1,
+						"y": 109,
+						"w": 18,
+						"h": 18
+					}
+				},
+				{
+					"filename": "bubble-left-0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 7,
+						"w": 18,
+						"h": 18
+					},
+					"frame": {
+						"x": 21,
+						"y": 109,
+						"w": 18,
+						"h": 18
+					}
+				},
+				{
+					"filename": "bubble-left-4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 7,
+						"w": 18,
+						"h": 18
+					},
+					"frame": {
+						"x": 21,
+						"y": 109,
+						"w": 18,
+						"h": 18
+					}
+				},
+				{
+					"filename": "boxm-down-0.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 28,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 28,
+						"h": 32
+					},
+					"frame": {
+						"x": 31,
+						"y": 75,
+						"w": 28,
+						"h": 32
+					}
+				},
+				{
+					"filename": "bubble-right-0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 7,
+						"w": 18,
+						"h": 18
+					},
+					"frame": {
+						"x": 41,
+						"y": 109,
+						"w": 18,
+						"h": 18
+					}
+				},
+				{
+					"filename": "bubble-right-4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 7,
+						"w": 18,
+						"h": 18
+					},
+					"frame": {
+						"x": 41,
+						"y": 109,
+						"w": 18,
+						"h": 18
+					}
+				},
+				{
+					"filename": "bubble-down-2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 3,
+						"w": 26,
+						"h": 26
+					},
+					"frame": {
+						"x": 61,
+						"y": 1,
+						"w": 26,
+						"h": 26
+					}
+				},
+				{
+					"filename": "boxs-down-0.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 24,
+						"h": 28
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 24,
+						"h": 28
+					},
+					"frame": {
+						"x": 35,
+						"y": 1,
+						"w": 24,
+						"h": 28
+					}
+				},
+				{
+					"filename": "bubble-left-2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 3,
+						"w": 26,
+						"h": 26
+					},
+					"frame": {
+						"x": 89,
+						"y": 1,
+						"w": 26,
+						"h": 26
+					}
+				},
+				{
+					"filename": "bubble-right-2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 3,
+						"w": 26,
+						"h": 26
+					},
+					"frame": {
+						"x": 35,
+						"y": 31,
+						"w": 26,
+						"h": 26
+					}
+				},
+				{
+					"filename": "bubble-down-5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 9,
+						"w": 14,
+						"h": 14
+					},
+					"frame": {
+						"x": 35,
+						"y": 59,
+						"w": 14,
+						"h": 14
+					}
+				},
+				{
+					"filename": "bubble-left-5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 9,
+						"w": 14,
+						"h": 14
+					},
+					"frame": {
+						"x": 51,
+						"y": 59,
+						"w": 14,
+						"h": 14
+					}
+				},
+				{
+					"filename": "bubble-up-2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 3,
+						"w": 26,
+						"h": 26
+					},
+					"frame": {
+						"x": 63,
+						"y": 29,
+						"w": 26,
+						"h": 26
+					}
+				},
+				{
+					"filename": "bottle1-down-0.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 24,
+						"h": 12
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 24,
+						"h": 12
+					},
+					"frame": {
+						"x": 91,
+						"y": 29,
+						"w": 24,
+						"h": 12
+					}
+				},
+				{
+					"filename": "bubble-down-1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 5,
+						"w": 22,
+						"h": 22
+					},
+					"frame": {
+						"x": 91,
+						"y": 43,
+						"w": 22,
+						"h": 22
+					}
+				},
+				{
+					"filename": "bubble-down-3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 5,
+						"w": 22,
+						"h": 22
+					},
+					"frame": {
+						"x": 67,
+						"y": 57,
+						"w": 22,
+						"h": 22
+					}
+				},
+				{
+					"filename": "bubble-left-1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 5,
+						"w": 22,
+						"h": 22
+					},
+					"frame": {
+						"x": 91,
+						"y": 67,
+						"w": 22,
+						"h": 22
+					}
+				},
+				{
+					"filename": "bubble-left-3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 5,
+						"w": 22,
+						"h": 22
+					},
+					"frame": {
+						"x": 91,
+						"y": 67,
+						"w": 22,
+						"h": 22
+					}
+				},
+				{
+					"filename": "bubble-up-3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 5,
+						"w": 22,
+						"h": 22
+					},
+					"frame": {
+						"x": 91,
+						"y": 67,
+						"w": 22,
+						"h": 22
+					}
+				},
+				{
+					"filename": "bubble-right-1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 5,
+						"w": 22,
+						"h": 22
+					},
+					"frame": {
+						"x": 61,
+						"y": 81,
+						"w": 22,
+						"h": 22
+					}
+				},
+				{
+					"filename": "bubble-right-3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 5,
+						"w": 22,
+						"h": 22
+					},
+					"frame": {
+						"x": 61,
+						"y": 81,
+						"w": 22,
+						"h": 22
+					}
+				},
+				{
+					"filename": "bubble-up-1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 5,
+						"w": 22,
+						"h": 22
+					},
+					"frame": {
+						"x": 61,
+						"y": 105,
+						"w": 22,
+						"h": 22
+					}
+				},
+				{
+					"filename": "bottle2-down-0.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 20,
+						"h": 12
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 20,
+						"h": 12
+					},
+					"frame": {
+						"x": 85,
+						"y": 91,
+						"w": 20,
+						"h": 12
+					}
+				},
+				{
+					"filename": "bubble-right-5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 9,
+						"w": 14,
+						"h": 14
+					},
+					"frame": {
+						"x": 107,
+						"y": 91,
+						"w": 14,
+						"h": 14
+					}
+				},
+				{
+					"filename": "bubble-up-0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 7,
+						"w": 18,
+						"h": 18
+					},
+					"frame": {
+						"x": 85,
+						"y": 105,
+						"w": 18,
+						"h": 18
+					}
+				},
+				{
+					"filename": "bubble-up-4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 7,
+						"w": 18,
+						"h": 18
+					},
+					"frame": {
+						"x": 85,
+						"y": 105,
+						"w": 18,
+						"h": 18
+					}
+				},
+				{
+					"filename": "bubble-up-5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 32,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 9,
+						"w": 14,
+						"h": 14
+					},
+					"frame": {
+						"x": 105,
+						"y": 107,
+						"w": 14,
+						"h": 14
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:275c81ae87be2f9899ddc20309e43a7a:b20df1047555bc909b1b4c2a60495943:af019c9df43c0315bbf2d16d758faea9$"
+	}
+}
